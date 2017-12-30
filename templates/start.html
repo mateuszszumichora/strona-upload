@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+			<h1>Wgraj Plik</h1>
+			<form action="/upload" enctype="multipart/form-data" method="post">
+				<p><label>Tytuł pliku</label></p>
+				<input class="form-control" type="text" name="title">
+				<br>
+				<p><label>Plik</label></p>
+				<input type="file" name="upload" multiple="multiple"><br>
+				<button class="btn btn-danger center-block" type="submit" value="submit" >Wyślij</button> 
+			</form>
+	</div>
+</body>
+</html>
